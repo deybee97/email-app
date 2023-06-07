@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  .container {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #f1f1f1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .compose-form {
+    margin-bottom: 20px;
+  }
+
+  .compose-form input[type="text"],
+  .compose-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+  }
+
+  .compose-form button {
+    padding: 10px 20px;
+    background-color: #4caf50;
+    border: none;
+    color: white;
+    cursor: pointer;
+  }
+
+  .inbox-list li {
+    list-style-type: none;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+
+  .inbox-list li h3 {
+    margin: 0;
+  }
+
+  .inbox-list li p {
+    margin: 5px 0;
+  }
+
+  .inbox-list li:hover {
+    background-color: #f9f9f9;
+  }
